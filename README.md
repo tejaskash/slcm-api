@@ -63,7 +63,7 @@ For Attendance:
 }
 ```
 For Marks:
-``` JSON
+``` 
 {
     "marks": [
         {
