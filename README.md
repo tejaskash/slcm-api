@@ -22,7 +22,7 @@ Type can be set to ```ATTENDANCE``` , ```MARKS``` or ```ALL``` depending on what
 ### Response Format
 
 For Attendance: 
-``` JSON
+``` 
 {
     "attendance": [
         {
