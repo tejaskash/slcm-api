@@ -1,6 +1,14 @@
 # slcm-api
 The SLCM API is simple,secure web application based on Flask that allows for retrieving attendance and marks data from the [SLcM Website](https://slcm.manipal.edu) .
 
+### Usage
+#### CLI
+``` bash
+  curl -X POST \
+  -H "Content-Type: application/json" \
+  -d@./request.json \
+  https://slcm-api.ml/api/v1/get
+```
 ### Request Format 
 The server expects requests to be in the following format: 
 
