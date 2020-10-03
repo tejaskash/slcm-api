@@ -57,11 +57,3 @@ def Internals2JSON(MarksHTML):
     marksJSON = dict({"marks":marksJSON})
     return dumps(marksJSON,indent=4, sort_keys=True)
 
-
-if __name__ == "__main__":
-    subjectJSON,marksJSON = Internals2JSON("MarksHTML")
-    attendanceJSON = Attendance2JSON("AttendanceHTML")
-    print(subjectJSON)
-    print(marksJSON)
-    print(attendanceJSON)
-
